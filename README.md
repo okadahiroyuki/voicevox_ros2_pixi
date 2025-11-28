@@ -1,0 +1,1 @@
+# voicevox_ros2_pixi
