@@ -1,7 +1,9 @@
-# ROS2でVOICEVOXを使う環境をpixiで構築する
+# ROS2でVOICEVOXを使う環境をpixiで構築する（macOS arm64版）
 - macOS 
-- pixi 0.59.0
+- pixi 0.39.0
 - voicevox 0.16.2
+
+[Linux x86版はこちら](https://github.com/okadahiroyuki/voicevox_ros2_pixi)
 
 ## 0. pixiのインストール
 [公式サイト](https://pixi.sh/dev/installation/)に従ってpixiをインストールする。
@@ -13,7 +15,7 @@ curl -fsSL https://pixi.sh/install.sh | sh
 ### 本リポジトリをクローンしてください
 ```
 cd ~/
-git clone https://github.com/okadahiroyuki/voicevox_ros2_pixi.git
+git clone -b osx_arm64 https://github.com/okadahiroyuki/voicevox_ros2_pixi.git
 ```
 ### 環境構築
 ```
