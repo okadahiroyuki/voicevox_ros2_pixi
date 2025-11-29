@@ -1,8 +1,9 @@
 [project]
+authors = ["Hiroyuki Okada <okdhryk@gmail.com>"]
 name = "voicevox-ros2"
 version = "0.1.0"
 description = "ROS 2 + VOICEVOX TTS (playback) in a pixi environment"
-channels = ["conda-forge"]
+channels = ["robostack-staging", "conda-forge"]
 platforms = ["osx-arm64"]
 
 [dependencies]
