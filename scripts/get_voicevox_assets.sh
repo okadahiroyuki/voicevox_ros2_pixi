@@ -8,7 +8,7 @@ cd "${ENGINE_DIR}"
 echo "[*] Download VOICEVOX Core assets (linux x64, CPU, models: 0.vvm)"
 
 VER="0.16.2"
-DL="download-linux-x64"
+DL="download-osx-arm64"
 URL="https://github.com/VOICEVOX/voicevox_core/releases/download/${VER}/${DL}"
 
 if [[ -n "${GITHUB_TOKEN:-}" ]]; then
@@ -22,8 +22,8 @@ chmod +x download
 
 yes | ./download \
   --devices cpu \
-  --os linux \
-  --cpu-arch x64 \
+#  --os linux \
+#  --cpu-arch x64 \
   --models-pattern 0.vvm
 
 echo "[*] DONE. Assets are under $(pwd)"
