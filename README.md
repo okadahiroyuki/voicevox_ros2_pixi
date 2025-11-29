@@ -3,6 +3,8 @@
 - pixi 0.59.0
 - voicevox 0.16.2
 
+[macOS arm64版はこちら](https://github.com/okadahiroyuki/voicevox_ros2_pixi/tree/osx_arm64)
+
 ## 0. pixiのインストール
 [公式サイト](https://pixi.sh/dev/installation/)に従ってpixiをインストールする。
 ```
