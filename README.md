@@ -25,7 +25,7 @@ pixi install
 pixi run get_assets
 
 # VOICEVOX Core の .whl ファイルのダウンロード
-wget https://github.com/VOICEVOX/voicevox_core/releases/download/0.16.2/voicevox_core-0.16.2-cp310-abi3-manylinux_2_34_x86_64.whl
+wget https://github.com/VOICEVOX/voicevox_core/releases/download/0.16.2/voicevox_core-0.16.2-cp310-abi3-macosx_11_0_arm64.whl
 
 # VOICEVOX コアホイールのインストール
 pixi run install_voicevox
