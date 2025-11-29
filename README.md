@@ -4,6 +4,11 @@
 - pixi 0.59.0
 - voicevox 0.16.2
 
+- ROS2 は /opt/ros/jazzy のものをそのまま使う
+- Python パッケージ（VOICEVOX, sounddevice, numpyなど）は pixi で管理する
+
+- pixi の中に ROS2 まで全部入れたい場合は　ros2-in-pixi.tomlを参考にしてください
+
 [macOS arm64版はこちら](https://github.com/okadahiroyuki/voicevox_ros2_pixi/tree/osx_arm64)
 
 ## 0. pixiのインストール
