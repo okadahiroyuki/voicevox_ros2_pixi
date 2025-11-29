@@ -29,5 +29,5 @@ install_voicevox = "python -m pip install --no-input voicevox_core-0.16.2-cp310-
 run = { cmd = "python src/voicevox_tts_node.py", env = { PYTHONPATH = "/opt/ros/jazzy/lib/python3.12/site-packages:${PYTHONPATH}" } }
 
 # 4) テスト送信
-say = "ros2 topic pub -1 /voicevox_tts std_msgs/String '{data: \"おはようございます。私はボイスボックスです
-。\"}'"
+say = "ros2 topic pub -1 /voicevox_tts std_msgs/String '{data: \"おはようございます。私はボイスボックスです。\"}'"
+
