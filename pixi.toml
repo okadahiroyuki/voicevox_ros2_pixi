@@ -1,4 +1,4 @@
-[project]
+[workspace]
 name = "voicevox-ros2"
 version = "0.1.0"
 description = "ROS 2 + VOICEVOX TTS (playback) in a pixi environment"
@@ -13,7 +13,7 @@ setuptools = "<=58.2.0"
 numpy = "*"
 portaudio = "*"
 
-[host-dependencies]
+[dependencies]
 pip = "*"
 
 [pypi-dependencies]
