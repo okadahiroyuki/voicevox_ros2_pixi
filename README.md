@@ -45,7 +45,7 @@ pixi run say
 あるいは
 ```
 cd ~/voicevox_ros2_pixi
-pixi ros2 topic pub -1 /voicevox_tts std_msgs/String '{data: "おはようございます。これはピクシー環境からの音声です。"}'
+pixi run ros2 topic pub -1 /voicevox_tts std_msgs/String '{data: "おはようございます。これはピクシー環境からの音声です。"}'
 
 ```
 
