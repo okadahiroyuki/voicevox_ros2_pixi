@@ -13,7 +13,7 @@ setuptools = "<=58.2.0"
 numpy = "*"
 portaudio = "*"
 
-[dependencies]
+[host-dependencies]
 pip = "*"
 
 [pypi-dependencies]
