@@ -3,7 +3,7 @@ name = "voicevox-ros2"
 version = "0.1.0"
 description = "ROS 2 + VOICEVOX TTS (playback) in a pixi environment"
 channels = ["conda-forge"]
-platforms = ["linux-64"]
+platforms = ["osx-arm64"]
 
 [dependencies]
 python = "3.12.*"
@@ -23,7 +23,7 @@ pyyaml = "*"
 get_assets = "bash scripts/get_voicevox_assets.sh"
 
 # 2) VOICEVOX の Python ホイールをインストール（CPU版の例）
-install_voicevox = "python -m pip install --no-input voicevox_core-0.16.2-cp310-abi3-manylinux_2_34_x86_64.whl"
+install_voicevox = "python -m pip install --no-input voicevox_core-0.16.2-cp310-abi3-macosx_11_0_arm64.whl"
 
 # 3) ノード起動
 run = { cmd = "python src/voicevox_tts_node.py", env = { PYTHONPATH = "/opt/ros/jazzy/lib/python3.12/site-packages:${PYTHONPATH}" } }
