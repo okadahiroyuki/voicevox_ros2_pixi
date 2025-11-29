@@ -1,19 +1,14 @@
-[workspace]
+[project]
 name = "voicevox-ros2"
 version = "0.1.0"
 description = "ROS 2 + VOICEVOX TTS (playback) in a pixi environment"
-channels = ["robostack-staging", "conda-forge"]
+channels = ["conda-forge"]
 platforms = ["linux-64"]
 
 [dependencies]
-ros-humble-desktop-full = ">=0.10.0,<0.11"
-colcon-common-extensions = ">=0.3.0,<0.4"
-setuptools = "<=58.2.0"
-#python = "3.12.*"
+python = "3.12.*"
 numpy = "*"
 portaudio = "*"
-
-[host-dependencies]
 pip = "*"
 
 [pypi-dependencies]
