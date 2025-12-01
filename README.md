@@ -9,7 +9,7 @@
 
 - pixi の中に ROS2 まで全部入れたい場合は　ros2-in-pixi.tomlを参考にしてください
 
-[macOS arm64版はこちら](https://github.com/okadahiroyuki/voicevox_ros2_pixi/tree/osx_arm64)
+[macOS arm64版はこちら](https://github.com/okadahiroyuki/voicevox_ros2_pixi/tree/osx-arm64)
 
 ## 0. pixiのインストール
 [公式サイト](https://pixi.sh/dev/installation/)に従ってpixiをインストールする。
