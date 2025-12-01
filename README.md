@@ -15,7 +15,7 @@ curl -fsSL https://pixi.sh/install.sh | sh
 ### 本リポジトリをクローンしてください
 ```
 cd ~/
-git clone -b osx_arm64 https://github.com/okadahiroyuki/voicevox_ros2_pixi.git
+git clone -b osx-arm64 https://github.com/okadahiroyuki/voicevox_ros2_pixi.git
 ```
 ### 環境構築
 ```
